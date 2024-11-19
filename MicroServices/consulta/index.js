@@ -11,6 +11,10 @@ const funcoes = {
     observacaoCriada: (observacao) => {
         const observacoes = baseConsulta[observacao.contador]
         baseConsulta[observacao.lembreteId]["observacoes"] = observacoes
+    },
+
+    ObservacaoAtualizada: (observacao) => {
+        //const 
     }
 }
 
